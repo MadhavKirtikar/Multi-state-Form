@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Multiple Forms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Multiple Forms Example</h1>
+
+    <form id="form1">
+        <label for="name1">Name (Form 1):</label>
+        <input type="text" id="name1" name="name1" required>
+        <button type="submit">Submit Form 1</button>
+    </form>
+
+    <form id="form2">
+        <label for="name2">Name (Form 2):</label>
+        <input type="text" id="name2" name="name2" required>
+        <button type="submit">Submit Form 2</button>
+    </form>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
